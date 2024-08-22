@@ -26,7 +26,7 @@ default-members = ["cli"]
 [workspace.dependencies]
 # consensus
 ssz-rs = { package = "ssz_rs", version = "0.9.0" }
-milagro_bls = { package = "bls12_381", git = "https://github.com/xavierdmello/bls12_381.git", branch="bhargav/experiment"}
+milagro_bls = { package = "bls12_381", git = "https://github.com/xavierdmello/bls12_381.git", branch="patch-v0.8.0"}
 
 # execution
 alloy = { version = "0.2.1", features = [
